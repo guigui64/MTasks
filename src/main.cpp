@@ -3,6 +3,7 @@
 #include "task.hpp"
 
 int main(int argc, char * const argv[]) {
+    // TODO getopt
     time_t now = time(nullptr);
     Task task("test task", "test notes of test task\n\ntoto", now, now + 2*24*60*60);
     task.print(std::cout);
