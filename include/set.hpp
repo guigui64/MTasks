@@ -5,13 +5,16 @@
 #include <fstream>
 #include <vector>
 
-#include "task.hpp"
+class Task;
 
 class Set {
     public:
         Set(std::string name): m_name(name) {}
         virtual ~Set() {}
         virtual void write(std::ofstream &s);
+        std::vector<Task> const &getTasks() const { return tasks; }
+        void addTask(Task t);
+        void deleteTask(int id);
     private:
         std::string m_name;
         std::vector<Task> tasks;

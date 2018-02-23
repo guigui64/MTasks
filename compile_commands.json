@@ -9,11 +9,11 @@
             "-I", 
             "include", 
             "-o", 
-            "build/task.o", 
-            "src/task.cpp"
+            "build/main.o", 
+            "src/main.cpp"
         ], 
         "directory": "/home/guillaume/git/MTasks", 
-        "file": "src/task.cpp"
+        "file": "src/main.cpp"
     }, 
     {
         "arguments": [
@@ -25,11 +25,11 @@
             "-I", 
             "include", 
             "-o", 
-            "build/main.o", 
-            "src/main.cpp"
+            "build/task.o", 
+            "src/task.cpp"
         ], 
         "directory": "/home/guillaume/git/MTasks", 
-        "file": "src/main.cpp"
+        "file": "src/task.cpp"
     }, 
     {
         "arguments": [
