@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-g", 
+            "-Wall", 
+            "-std=c++11", 
+            "-I", 
+            "include", 
+            "-o", 
+            "build/task.o", 
+            "src/task.cpp"
+        ], 
+        "directory": "/home/guillaume/git/MTasks", 
+        "file": "src/task.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-g", 
+            "-Wall", 
+            "-std=c++11", 
+            "-I", 
+            "include", 
+            "-o", 
+            "build/main.o", 
+            "src/main.cpp"
+        ], 
+        "directory": "/home/guillaume/git/MTasks", 
+        "file": "src/main.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-g", 
+            "-Wall", 
+            "-std=c++11", 
+            "-I", 
+            "include", 
+            "-o", 
+            "build/set.o", 
+            "src/set.cpp"
+        ], 
+        "directory": "/home/guillaume/git/MTasks", 
+        "file": "src/set.cpp"
+    }
+]
